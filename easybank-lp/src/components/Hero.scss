@@ -1,5 +1,19 @@
-@import "index.scss";
-
 .Hero-img {
-  background: url(./images/bg-intro-mobile.svg);
+  .Bg-blobs {
+    position: relative;
+    width: 100%;
+    top: 0;
+    left: 0;
+    z-index: 1;
+  }
+
+  .Mobile-phones {
+    position: absolute;
+    width: 85%;
+    margin: 0;
+    top: -3rem;
+    left: 7%;
+    z-index: 3;
+    align-self: center;
+  }
 }
