@@ -25,7 +25,7 @@ const Hero = () => (
         one-stop-shop for spending, saving, budgeting, investing and much more.
       </p>
     </div>
-    <button> Request Invite</button>
+    <button className="request-btn"> Request Invite</button>
   </>
 );
 
