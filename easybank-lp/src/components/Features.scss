@@ -1,7 +1,7 @@
-@use "./index.scss";
+@import "/src/index.scss";
 
 .Feature-section {
-  background-color: hsl(220, 16%, 96%);
+  background-color: $LightGrayishBlue;
   margin: 10rem 0 0 0;
   padding-bottom: 4rem;
 
@@ -37,9 +37,50 @@
 
 .Articles {
   margin: 7rem 0 0 0;
+  background-color: #fafafa;
+  z-index: 1;
 
   h2 {
     font-size: 3.4em;
     font-weight: 300;
+  }
+
+  .Article-component {
+    z-index: 3;
+    background-color: white;
+    padding: 0 2.5rem 2rem 2.5rem;
+    margin-bottom: 0.5rem;
+
+    img {
+      width: 100%;
+      border-radius: 0.8em 0.8em 0 0;
+    }
+    span {
+      margin: 0 auto;
+      padding: 1.5rem 0 0 3rem;
+      display: flex;
+      font-size: 1.1em;
+      color: $GrayishBlue;
+    }
+    h4 {
+      color: $DarkBlue;
+      font-size: 1.8em;
+      font-weight: 300;
+      padding: 0rem 1.5rem 0 3rem;
+      text-align: left;
+    }
+    p {
+      text-align: left;
+      padding: 0 2rem 0 3rem;
+    }
+  }
+
+  .component-style {
+    -webkit-box-shadow: -10px 17px 33px -9px rgba(130, 130, 130, 0.05);
+    -moz-box-shadow: -10px 17px 33px -9px rgba(130, 130, 130, 0.05);
+    box-shadow: -10px 17px 33px -9px rgba(130, 130, 130, 0.05);
+    margin-bottom: 1.5rem;
+    padding-bottom: 2rem;
+    border-radius: 0.8rem;
   }
 }
