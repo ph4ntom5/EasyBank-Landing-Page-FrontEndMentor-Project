@@ -29,6 +29,8 @@ const Footer = () => (
               <a href="#">Support</a>
               <a href="#">Privacy Policy</a>
             </div>
+            <button className="request-btn"> Request Invite</button>
+            <p>© Easybank. All Rights Reserved</p>
           </div>
         </div>
       </div>
