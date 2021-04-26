@@ -1,0 +1,22 @@
+@import "/src/index.scss";
+
+.Footer-section {
+  background-color: $DarkBlue;
+
+  padding-top: 2rem;
+
+  .white-logo {
+    width: 30%;
+  }
+
+  .socials-logo img {
+    padding: 2em 1em 2em 1em;
+  }
+
+  .footer-navigation a {
+    position: relative;
+    text-decoration: none;
+    color: white;
+    font-size: 1.4em;
+  }
+}
