@@ -1,0 +1,21 @@
+@import "/src/index.scss";
+
+nav {
+  background-color: white;
+  position: absolute;
+  width: 100%;
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: space-between;
+  align-items: center;
+  z-index: 999;
+  padding: 1.6em;
+  img {
+    padding: 1rem;
+    margin-right: 4em;
+    width: 8%;
+  }
+  img.logo {
+    width: 15em;
+  }
+}
