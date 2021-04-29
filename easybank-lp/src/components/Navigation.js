@@ -1,14 +1,34 @@
-import React from "react";
+import React, { useState } from "react";
 import "../components/Navigation.scss";
 import hamburger from "../images/icon-hamburger.svg";
 import logo from "../images/logo.svg";
-const Navigation = () => (
-  <>
+function Navigation() {
+  const [showMenu, setShowMenu] = useState(false);
+  let menu;
+
+  if (showMenu) {
+    menu = (
+      <div className="mob-menu">
+        <a href="#">Home</a>
+        <a href="#">About</a>
+        <a href="#">Contact</a>
+        <a href="#">Blog</a>
+        <a href="#">Careers</a>
+      </div>
+    );
+  }
+
+  return (
     <nav>
-      <img src={hamburger} alt="hamburger icon"></img>
+      <img
+        src={hamburger}
+        alt="hamburger icon"
+        onClick={() => setShowMenu(!showMenu)}
+      ></img>
       <img className="logo" src={logo} alt="easybank logo"></img>
+      {menu}
     </nav>
-  </>
-);
+  );
+}
 
 export default Navigation;
