@@ -84,3 +84,39 @@
     border-radius: 0.8rem;
   }
 }
+
+@media only screen and (min-width: 760px) {
+  .Headline h1 {
+    text-align: left;
+    margin: 0 0 0 4rem;
+  }
+
+  .Headline p {
+    margin: 1rem 4rem !important;
+    text-align: left;
+  }
+
+  .f-list p {
+    margin: 0;
+    padding: 0;
+    text-align: left;
+  }
+  .f-list {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    h3 {
+      text-align: left;
+      font-size: 1.2rem;
+    }
+  }
+
+  .feat-box {
+    margin: 1rem;
+  }
+  .feat-box img {
+    text-align: left;
+    display: flex;
+    flex-direction: row-reverse;
+  }
+}

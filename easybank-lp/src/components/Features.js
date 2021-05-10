@@ -50,7 +50,7 @@ const Features = () => (
           <h3>Open API</h3>
           <p>
             Manage your savings, investments,pension, and much more from one
-            account.Tracking your money has never been easier.
+            account. Tracking your money has never been easier.
           </p>
         </div>
       </div>
