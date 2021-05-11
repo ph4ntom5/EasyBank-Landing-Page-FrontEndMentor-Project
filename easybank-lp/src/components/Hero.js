@@ -28,7 +28,10 @@ const Hero = () => (
         </p>
       </div>
     </div>
-    <button className="request-btn"> Request Invite</button>
+    <button src="#" className="request-btn2">
+      {" "}
+      Request Invite
+    </button>
   </>
 );
 

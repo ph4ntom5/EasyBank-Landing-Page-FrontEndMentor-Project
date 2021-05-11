@@ -66,10 +66,10 @@
   }
 }
 
-button.request-btn {
-  text-align: left;
+button.request-btn2 {
   position: relative;
   display: flex;
   flex-direction: row-reverse;
-  margin-left: 4em;
+  float: left;
+  margin-left: 4rem;
 }
