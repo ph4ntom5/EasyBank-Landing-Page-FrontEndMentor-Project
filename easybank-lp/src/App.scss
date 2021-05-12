@@ -1,5 +1,11 @@
 @import "index.scss";
 
+body,
+html {
+  margin: 0 auto;
+  padding: 0;
+}
+
 .App {
   text-align: center;
   background-color: $VeryLightGray;

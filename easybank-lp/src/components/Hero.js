@@ -3,6 +3,7 @@ import ReactDOM from "react-dom";
 import "../components/Hero.scss";
 import mockupImage from "../images/bg-intro-mobile.svg";
 import phoneMockups from "../images/image-mockups.png";
+import mockupImageDesktop from "../images/bg-intro-desktop.svg";
 
 const Hero = () => (
   <>
@@ -12,6 +13,11 @@ const Hero = () => (
           className="Bg-blobs"
           src={mockupImage}
           alt="Background green and violet blob shapes"
+        ></img>
+        <img
+          className="Bg-blobs-desktop"
+          src={mockupImageDesktop}
+          alt="Background green and violet blob shapes for desktop devices"
         ></img>
         <img
           className="Mobile-phones"

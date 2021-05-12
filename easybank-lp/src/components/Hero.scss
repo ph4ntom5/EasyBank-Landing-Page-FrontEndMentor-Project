@@ -7,6 +7,10 @@
     z-index: 1;
   }
 
+  .Bg-blobs-desktop {
+    display: none;
+  }
+
   .Mobile-phones {
     position: absolute;
     width: 85%;
@@ -18,29 +22,44 @@
 }
 
 .Headline h1 {
-  font-size: 2.2rem;
+  font-size: 1.8rem;
   margin: 0.1em 0 0 0;
 }
 .Headline p {
   padding: 1em;
 }
 
+button.request-btn2 {
+  position: relative;
+  display: flex;
+  flex-direction: row-reverse;
+  margin: 0 auto;
+}
+
 @media only screen and (min-width: 760px) {
+  body {
+    margin-bottom: -20em;
+  }
   .Hero-container {
     display: flex;
     flex-direction: row-reverse;
-    margin: 0 auto;
-    padding: 0 !important;
 
-    .Hero-img .Bg-blobs {
-      background-position: left 65%;
-      margin: 0;
-      padding: 0;
-    }
     .Hero-img {
-      display: flex;
-      flex-direction: column-reverse;
-      width: 50%;
+      overflow: hidden;
+
+      .Bg-blobs {
+        display: none;
+      }
+
+      .Bg-blobs-desktop {
+        position: relative;
+        display: flex;
+        flex-direction: column-reverse;
+        z-index: 1;
+        width: 200%;
+        top: -10rem;
+        left: -2rem;
+      }
       .Mobile-phones {
         width: 50%;
         position: absolute;
@@ -60,16 +79,15 @@
       }
       p {
         font-size: 1.2rem;
+        padding: 0 0 0 1rem;
         margin: 1rem 0 0 3rem !important;
       }
     }
   }
-}
-
-button.request-btn2 {
-  position: relative;
-  display: flex;
-  flex-direction: row-reverse;
-  float: left;
-  margin-left: 4rem;
+  button.request-btn2 {
+    display: block;
+    float: left;
+    margin-left: 4rem;
+    margin-top: -12rem;
+  }
 }

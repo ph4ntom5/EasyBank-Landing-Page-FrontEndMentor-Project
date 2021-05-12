@@ -60,6 +60,12 @@
 }
 
 @media only screen and (min-width: 760px) {
+  body,
+  html {
+    margin: 0 auto;
+    padding: 0;
+  }
+
   .logos {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
