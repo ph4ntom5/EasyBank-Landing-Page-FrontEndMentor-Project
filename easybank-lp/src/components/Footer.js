@@ -18,23 +18,21 @@ const Footer = () => (
           <img src={twitter} alt="twitter logo"></img>
           <img src={pinterest} alt="pinterest logo"></img>
           <img src={instagram} alt="instagram logo"></img>
-          <div className="footer-navigation">
-            <div className="links">
-              <a href="#">About Us</a>
-              <a href="#">Contact</a>
-              <a href="#">Blog</a>
-            </div>
-            <div className="links">
-              <a href="#">Careers</a>
-              <a href="#">Support</a>
-              <a href="#">Privacy Policy</a>
-            </div>
-          </div>
-          <div className="Cta-wrapper">
-            <button className="request-btn"> Request Invite</button>
-            <p>© Easybank. All Rights Reserved</p>
-          </div>
         </div>
+      </div>
+      <div className="links">
+        <a href="#">About Us</a>
+        <a href="#">Contact</a>
+        <a href="#">Blog</a>
+      </div>
+      <div className="links">
+        <a href="#">Careers</a>
+        <a href="#">Support</a>
+        <a href="#">Privacy Policy</a>
+      </div>
+      <div className="Cta-wrapper">
+        <button className="request-btn"> Request Invite</button>
+        <p>© Easybank. All Rights Reserved</p>
       </div>
     </div>
   </>
