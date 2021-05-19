@@ -22,11 +22,11 @@
 }
 
 .Headline h1 {
-  font-size: 1.8rem;
+  font-size: 1.6rem;
   margin: 0.1em 0 0 0;
 }
 .Headline p {
-  padding: 1em;
+  padding: 1.5em;
 }
 
 button.request-btn2 {
@@ -89,5 +89,47 @@ button.request-btn2 {
     float: left;
     margin-left: 4rem;
     margin-top: -12rem;
+  }
+}
+
+/* Desktop layout*/
+
+@media only screen and (min-width: 1200px) {
+  .Hero-container {
+    height: 90vh;
+    padding-bottom: 80px;
+
+    .Headline h1 {
+      font-size: 4em;
+      margin-left: 2em;
+    }
+    .Headline p {
+      padding-top: 0.5rem;
+      padding-right: 0 !important;
+      margin-left: 4rem !important;
+      font-size: 1.4rem;
+    }
+    .Hero-img {
+      width: 100%;
+      height: 100%;
+      overflow: hidden !important;
+
+      img.Bg-blobs-desktop {
+        position: relative;
+        top: -30rem;
+        left: 12em;
+      }
+
+      img.Mobile-phones {
+        position: absolute;
+        top: 2rem;
+        left: 85em !important;
+      }
+    }
+  }
+
+  button.request-btn2 {
+    margin-top: -12rem;
+    margin-left: 5rem;
   }
 }
