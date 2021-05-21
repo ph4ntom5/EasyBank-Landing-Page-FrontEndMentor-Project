@@ -5,6 +5,7 @@
 .Feature-section {
   background-color: $LightGrayishBlue;
   margin: 10rem 0 0 0;
+  padding-bottom: 5rem;
 
   .Headline h1 {
     padding: 4rem 1rem 0 1rem;
@@ -37,42 +38,12 @@
 
 .Articles {
   margin: 7rem 0 0 0;
-  background-color: #fafafa;
+  background-color: white;
   z-index: 1;
 
   h2 {
     font-size: 3.4em;
     font-weight: 300;
-  }
-
-  .Article-component {
-    z-index: 3;
-    background-color: white;
-    padding: 0 2.5rem 2rem 2.5rem;
-    margin-bottom: 0.5rem;
-
-    img {
-      width: 100%;
-      border-radius: 0.8em 0.8em 0 0;
-    }
-    span {
-      margin: 0 auto;
-      padding: 1.5rem 0 0 3rem;
-      display: flex;
-      font-size: 1.1em;
-      color: $GrayishBlue;
-    }
-    h4 {
-      color: $DarkBlue;
-      font-size: 1.8em;
-      font-weight: 300;
-      padding: 0rem 1.5rem 0 3rem;
-      text-align: left;
-    }
-    p {
-      text-align: left;
-      padding: 0 2rem 0 3rem;
-    }
   }
 
   .component-style {
@@ -124,34 +95,17 @@
     display: flex;
     flex-direction: row-reverse;
   }
-
-  .Article-headline h2 {
-    text-align: left;
-    padding-left: 4rem;
-  }
-  .Article-component {
-    display: flex;
-    flex-direction: row-reverse;
-    .component-style {
-      margin: 1rem;
-      padding: 0;
-
-      span,
-      p,
-      h4 {
-        padding-left: 1rem;
-      }
-    }
-  }
 }
 
 /* Desktop breakpoint */
 @media only screen and (min-width: 1200px) {
+  .Articles {
+    background-color: white;
+  }
   .Feature-section {
-    margin-top: 4.2rem;
     padding: 3rem;
     position: relative;
-    z-index: 2;
+    z-index: 1;
     .Headline p {
       padding-right: 40rem;
     }

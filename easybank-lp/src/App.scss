@@ -4,11 +4,13 @@ body,
 html {
   margin: 0 auto;
   padding: 0;
+  max-width: 1900px;
+  box-sizing: border-box;
+  background-color: white;
 }
 
 .App {
   text-align: center;
-  background-color: $VeryLightGray;
 
   h1 {
     color: $DarkBlue;

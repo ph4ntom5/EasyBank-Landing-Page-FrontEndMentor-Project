@@ -1,0 +1,111 @@
+@import "/src/index.scss";
+
+/* Mobile breakpoint */
+
+.Articles {
+  margin: 7rem 0 0 0;
+  background-color: #fcfcfc;
+  z-index: 1;
+
+  h2 {
+    font-size: 3.4em;
+    font-weight: 300;
+  }
+
+  .component-style {
+    -webkit-box-shadow: -10px 17px 33px -9px rgba(130, 130, 130, 0.05);
+    -moz-box-shadow: -10px 17px 33px -9px rgba(130, 130, 130, 0.05);
+    box-shadow: -10px 17px 33px -9px rgba(130, 130, 130, 0.05);
+    margin-bottom: 1.5rem;
+    padding-bottom: 2rem;
+    border-radius: 0.8rem;
+  }
+
+  .Article-component {
+    z-index: 3;
+    background-color: white;
+    padding: 0 2.5rem 2rem 2.5rem;
+    margin-bottom: 0.5rem;
+
+    img {
+      width: 100%;
+      border-radius: 0.8em 0.8em 0 0;
+    }
+    span {
+      margin: 0 auto;
+      padding: 1.5rem 0 0 3rem;
+      display: flex;
+      font-size: 1.1em;
+      color: $GrayishBlue;
+    }
+    h4 {
+      color: $DarkBlue;
+      font-size: 1.8em;
+      font-weight: 300;
+      padding: 0rem 1.5rem 0 3rem;
+      text-align: left;
+    }
+
+    h4:hover {
+      color: $LimeGreen;
+      cursor: pointer;
+    }
+    p {
+      text-align: left;
+      padding: 0 2rem 0 3rem;
+    }
+  }
+
+  /* Tablet breakpoint */
+  @media only screen and (min-width: 760px) {
+    .Articles {
+      background-color: #fcfcfc;
+    }
+    .Article-headline h2 {
+      text-align: left;
+      padding-left: 4rem;
+      background-color: white;
+      margin: 0 auto;
+      padding-top: 2rem;
+      padding-bottom: 2rem;
+    }
+    .Article-component {
+      display: flex;
+      flex-direction: row;
+      .component-style {
+        margin: 1rem;
+        padding: 0;
+
+        span,
+        p,
+        h4 {
+          padding-left: 1rem;
+        }
+      }
+    }
+  }
+}
+
+/* Desktop breakpoint */
+
+@media only screen and (min-width: 1200px) {
+  .Articles {
+    background-color: black;
+    margin: 0 auto;
+    .Article-headline {
+      background-color: #fcfcfc;
+    }
+    .Article-headline h2 {
+      padding-top: 4rem;
+      background-color: #fcfcfc;
+    }
+    .Article-component {
+      background-color: #fcfcfc;
+      img {
+        width: 100%;
+        border-radius: 0.8em 0.8em 0 0;
+        height: 18rem;
+      }
+    }
+  }
+}

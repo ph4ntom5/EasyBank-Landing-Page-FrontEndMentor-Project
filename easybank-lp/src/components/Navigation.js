@@ -3,6 +3,7 @@ import "../components/Navigation.scss";
 import hamburger from "../images/icon-hamburger.svg";
 import closeMenuX from "../images/icon-close.svg";
 import logo from "../images/logo.svg";
+
 function Navigation() {
   const [showMenu, setShowMenu] = useState(false);
   let menu;
