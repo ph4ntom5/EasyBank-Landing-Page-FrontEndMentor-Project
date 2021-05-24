@@ -2,20 +2,34 @@
 
 .Desktop-Nav-bar {
   display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  padding: 1rem 1rem 1rem 1rem;
-  grid-auto-columns: max-content;
   place-content: center;
+  padding: 2rem 0.5rem 0.5rem 2rem;
   grid-auto-flow: column;
-  gap: 5.5rem;
+  gap: 2rem;
+  max-width: 1900px;
+  background-color: white;
   width: 100%;
-
   a {
     text-decoration: none;
     font-size: 1.2rem;
-    color: $DarkBlue;
+    color: $GrayishBlue;
   }
   a:hover {
     color: $LimeGreen;
+  }
+  img {
+    width: 10rem;
+    cursor: pointer;
+    padding: 0;
+    margin-right: 23rem;
+    position: relative;
+    top: 0.5rem;
+  }
+  .request-btn2 {
+    margin: 0 auto;
+    margin-left: 9rem;
+    position: relative;
+    top: -0.7rem;
+    place-content: center;
   }
 }
