@@ -32,10 +32,7 @@ const Hero = () => (
           one-stop-shop for spending, saving, budgeting, investing and much
           more.
         </p>
-        <button src="#" className="request-btn2">
-          {" "}
-          Request Invite
-        </button>
+        <button className="request-btn2"> Request Invite</button>
       </div>
     </div>
   </>

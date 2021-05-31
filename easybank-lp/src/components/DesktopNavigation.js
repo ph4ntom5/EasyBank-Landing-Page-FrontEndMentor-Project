@@ -12,10 +12,7 @@ const DesktopNavigation = () => {
         <a href="#">Contact</a>
         <a href="#">Blog</a>
         <a href="#">Careers</a>
-        <button src="#" className="request-btn2">
-          {" "}
-          Request Invite
-        </button>
+        <button className="request-btn2"> Request Invite</button>
       </nav>
     </>
   );
