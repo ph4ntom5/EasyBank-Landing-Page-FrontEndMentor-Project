@@ -28,8 +28,8 @@ Desktop layout screenshot below.
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://github.com/ph4ntom5/EasyBank-Landing-Page-FrontEndMentor-Project)
-- Live Site URL: [Add live site URL here](https://inspiring-golick-43be1b.netlify.app/)
+- Solution URL: [GitHub Repo](https://github.com/ph4ntom5/EasyBank-Landing-Page-FrontEndMentor-Project)
+- Live Site URL: [Preview Site](https://inspiring-golick-43be1b.netlify.app/)
 
 ### Built with
 
