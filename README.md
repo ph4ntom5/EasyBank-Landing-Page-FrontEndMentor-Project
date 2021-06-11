@@ -22,7 +22,7 @@ Users should be able to:
 
 ### Screenshot
 
-![](./images/desktop-mockup.jpg)
+![](../images/desktop-mockup.jpg)
 
 Desktop layout screenshot below.
 
